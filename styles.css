@@ -73,3 +73,32 @@ a:active {
     }
 
 }
+
+@media screen and (min-width: 768px) {
+
+    h1,
+    h3 {
+        color: black
+    }
+
+    #waterpark {
+        height: 200px;
+        width: 250px;
+    }
+
+    h1 {
+        background-color: yellow;
+    }
+
+    h3 {
+        background-color: rgb(167, 167, 0);
+    }
+
+    footer {
+        float: right;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
