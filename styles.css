@@ -30,12 +30,10 @@ h3 {
 
 .left {
     text-align: left;
-    width: 420px;
 }
 
 .right {
     text-align: right;
-    width: 410px;
 }
 
 #waterpark {
@@ -48,7 +46,10 @@ h3 {
 a:link {
     background-color: black;
 }
-a:visited{color: grey;}
+
+a:visited {
+    color: grey;
+}
 
 a:hover {
     background-color: blue;
@@ -57,4 +58,18 @@ a:hover {
 
 a:active {
     color: white;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        background-color: rgb(33, 145, 173);
+    }
+
+    #waterpark {
+        height: 150px;
+        width: 200px;
+        border: 5px solid black;
+        box-shadow: 2px 2px black;
+    }
+
 }
