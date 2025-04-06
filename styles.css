@@ -102,3 +102,16 @@ a:active {
         text-align: center;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    nav {
+        background-color: yellow;
+        border: 3px double black;
+    }
+
+    #waterpark {
+        height: 250px;
+        width: 300px;
+        box-shadow: 2px 2px black, 4px 4px yellow, 6px 6px rgb(167, 167, 0);
+    }
+}
